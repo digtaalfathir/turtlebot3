@@ -37,7 +37,7 @@ def get_input():
     try:
         return float(input("Enter the distance (mm) the robot wants to move (0 to stop): "))
     except ValueError:
-        print("Please enter valid numbers.")
+        print("Please enter valid numbers. ")
         return get_input()
 
 def getKey():
